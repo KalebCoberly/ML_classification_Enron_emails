@@ -22,44 +22,44 @@ My first true ML project, it's pretty messy. I wouldn't consider this (or any of
 
 ## References
 
-### Imports etc.:
-* https://www.python.org/ For all coding.
-* https://www.anaconda.com/ For conda and Jupyter Notebooks.
-* http://www.picklesdoc.com/ For serializing objects.
-* https://pandas.pydata.org/ For dataframes and series'.
-* https://numpy.org/ For arrays and stats.
-* https://matplotlib.org/ For plotting EDA.
-* https://seaborn.pydata.org/ For plotting EDA.
-* https://www.scipy.org/ For EDA.
-* https://sklearn.org/ For the extensive ML suite.
-* https://docs.python.org/3/library/functools.html/ For callables with set parameters.
-* https://docs.python.org/3/library/time.html For timing operations.
-* https://ipython.org/ For the interactive shell in Jupyter Notebook.
-* https://docs.python.org/3/library/sys.html For setting path.
-* https://udacity.com/ For the educational material, starter code, and preprocessed data.
+### Python imports etc.:
+* [Conda and Jupyter Notebooks](https://www.anaconda.com/)
+* [pickle](http://www.picklesdoc.com/)
+* [pandas](https://pandas.pydata.org/)
+* [NumPy](https://numpy.org/)
+* [matplotlib.pyplot](https://matplotlib.org/)
+* [seaborn](https://seaborn.pydata.org/)
+* [scipy](https://www.scipy.org/)
+* [sklearn](https://sklearn.org/)
+* [functools](https://docs.python.org/3/library/functools.html/)
+* [time](https://docs.python.org/3/library/time.html)
+* [InteractiveShell](https://ipython.org/)
+* [sys](https://docs.python.org/3/library/sys.html)
+* [For the educational material, starter code, and preprocessed data](https://udacity.com/)
 
-Data:
-* https://www.cs.cmu.edu/~enron/ email dataset
-* https://findlaw.com/ The financial dataset. Udacity provided this, and I have been unable to find it on findlaw.com, but I included the PDF in the supplemental material folder for reference.
-* https://udacity.com/ For the educational material, starter code, and preprocessed data.
+### Data:
+* [email](https://www.cs.cmu.edu/~enron/)
+* [The financial dataset](https://findlaw.com/ Udacity provided this, and I have been unable to find it on findlaw.com, but I included the PDF in the supplemental material folder for reference.)
+* [For the educational material, starter code, and preprocessed data](https://udacity.com/)
 
 
-Other people's approaches:
+### Other people's approaches:
 * https://medium.com/@Tushar_007/analysis-of-financial-data-of-enron-8457df24b6af
 * https://williamkoehrsen.medium.com/machine-learning-with-python-on-the-enron-dataset-8d71015be26d
+* 
 I read these writeups to see how others have approached the same problem. Though I didn't borrow any code, nor ideas that aren't already common, William Koehrsen's article reminded me to validate the data against the total columns, and reading his explanation saved me the trouble of puzzling out why there were errors.
 
 
-General information about the scandal and the data.
+### General information about the scandal and the data.
 * https://enrondata.readthedocs.io/en/latest/
 * https://foreverdata.org/1009HOLD/Enron_Dataset_Report.pdf
 * "Enron: The Smartest Guys in the Room," 2005 documentary available on Netflix.
 
 
-Education/reference:
-* https://udacity.com/ For the educational material, starter code, and preprocessed data.
-* "Data Skeptic" podcast. Early episodes introduced me to key concepts, especially regarding information leakage and the multiple comparisons problem.
+### Education/reference:
+* [For the educational material, starter code, and preprocessed data](https://udacity.com/)
+* ["Data Skeptic"](https://dataskeptic.com/) podcast. Early episodes introduced me to key concepts, especially regarding information leakage and the multiple comparisons problem.
 * https://en.wikipedia.org/wiki/Multiple_comparisons_problem
-* https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf For suggested C and gamma search ranges in SVMs.
-* https://stackoverflow.com/users/2391771/kaleb-coberly For troubleshooting (no copied code other than below).
-* https://stackoverflow.com/questions/2613800/how-to-convert-dos-windows-newline-crlf-to-unix-newline-lf-in-a-bash-script/19702943#19702943 Adapted @anatoly techtonik's solution for unpickling objects created by Unix. This is a commonly copied/pasted script. See crlf_to_lf in 'data/doc2unix.py'.
+* [For suggested C and gamma search ranges in SVMs](https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf)
+* [For troubleshooting (no copied code other than below)](https://stackoverflow.com/users/2391771/kaleb-coberly)
+* [Adapted @anatoly techtonik's solution for unpickling objects created by Unix](https://stackoverflow.com/questions/2613800/how-to-convert-dos-windows-newline-crlf-to-unix-newline-lf-in-a-bash-script/19702943#19702943) This is a commonly copied/pasted script. See my crlf_to_lf in 'data/doc2unix.py'.
