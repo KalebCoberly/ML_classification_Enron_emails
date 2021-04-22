@@ -50,7 +50,7 @@ My first true ML project, it's pretty messy. I wouldn't consider this (or any of
 I read these writeups to see how others have approached the same problem. Though I didn't borrow any code, nor ideas that aren't already common, William Koehrsen's article reminded me to validate the data against the total columns, and reading his explanation saved me the trouble of puzzling out why there were errors.
 
 
-### General information about the scandal and the data.
+### General information about the scandal and the data:
 * https://enrondata.readthedocs.io/en/latest/
 * https://foreverdata.org/1009HOLD/Enron_Dataset_Report.pdf
 * "Enron: The Smartest Guys in the Room," 2005 documentary available on Netflix.
