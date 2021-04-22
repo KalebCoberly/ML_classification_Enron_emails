@@ -35,18 +35,18 @@ My first true ML project, it's pretty messy. I wouldn't consider this (or any of
 * [time](https://docs.python.org/3/library/time.html)
 * [InteractiveShell](https://ipython.org/)
 * [sys](https://docs.python.org/3/library/sys.html)
-* [For the educational material, starter code, and preprocessed data](https://udacity.com/)
+* [For the educational material, starter code, and preprocessed data.](https://udacity.com/)
 
 ### Data:
 * [email](https://www.cs.cmu.edu/~enron/)
-* [The financial dataset](https://findlaw.com/ Udacity provided this, and I have been unable to find it on findlaw.com, but I included the PDF in the supplemental material folder for reference.)
-* [For the educational material, starter code, and preprocessed data](https://udacity.com/)
+* [The financial dataset](https://findlaw.com/) Udacity provided this, and I have been unable to find it on findlaw.com, but I included the PDF in the supplemental material folder for reference.
+* [For the educational material, starter code, and preprocessed data.](https://udacity.com/)
 
 
 ### Other people's approaches:
 * https://medium.com/@Tushar_007/analysis-of-financial-data-of-enron-8457df24b6af
 * https://williamkoehrsen.medium.com/machine-learning-with-python-on-the-enron-dataset-8d71015be26d
-* 
+
 I read these writeups to see how others have approached the same problem. Though I didn't borrow any code, nor ideas that aren't already common, William Koehrsen's article reminded me to validate the data against the total columns, and reading his explanation saved me the trouble of puzzling out why there were errors.
 
 
